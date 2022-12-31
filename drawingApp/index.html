@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drawing App</title>
-    <link rel="stylesheet" href="/drawingApp/styleD.css">
+    <link rel="stylesheet" href="/drawingApp/styleD.css" />
+    <script src="/drawingApp/scriptD.js" defer></script>
   </head>
   <body>
-
-    <canvas id="canvas" width="500" height="500">
-
-        <!-- set width and height of canvas -->
-    </canvas>
-
-</body>
-  <script src="/drawingApp/scriptD.js"></script>
-
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div class="toolbox">
+      <button id="decrease">-</button>
+      <span id="size">10</span>
+      <button id="increase">+</button>
+      <input type="color" id="color" />
+      <button id="clear">💩</button>
+    </div>
+  </body>
 </html>

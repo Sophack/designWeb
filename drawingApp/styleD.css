@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #e5e5e5;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: "Poppins", sans-serif;
@@ -16,7 +17,25 @@ body {
 }
 
 canvas {
-    width: 500px;
-    height: 500px;
     border: 1px solid black;
+}
+
+.toolbox {
+    background-color: rgb(133, 87, 133);
+    width: 800px;
+    padding: 1rem;
+}   
+
+/* everything inside the toolbox should have below properties */
+
+.toolbox > * {
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0.25rem; 
+    width: 50px;
+    border: none;
+    height: 50px;
 }
