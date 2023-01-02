@@ -17,13 +17,15 @@ body {
 }
 
 canvas {
-    border: 1px solid black;
+    border: 2px dashed  rgb(133, 87, 133);
 }
 
 .toolbox {
     background-color: rgb(133, 87, 133);
-    width: 800px;
+    width: 804px;
     padding: 1rem;
+    display: flex;
+    border: 2px solid  rgb(133, 87, 133);
 }   
 
 /* everything inside the toolbox should have below properties */
@@ -35,6 +37,7 @@ canvas {
     justify-content: center;
     font-size: 2rem;
     padding: 0.25rem; 
+    margin: 0.25rem;
     width: 50px;
     border: none;
     height: 50px;
